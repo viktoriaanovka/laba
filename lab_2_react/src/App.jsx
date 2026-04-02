@@ -8,14 +8,18 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <About />
-      <Experience />
-      <Skills />
-      <Languages />
-      <Qualities />
-      <Footer />
+    <div className="min-h-screen bg-slate-100 py-8 px-4">
+      <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+        <Header />
+        <main className="p-6 space-y-6">
+          <About />
+          <Experience />
+          <Skills />
+          <Languages />
+          <Qualities />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }

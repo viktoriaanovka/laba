@@ -1,8 +1,8 @@
 function Skills() {
   return (
-    <section>
-      <h2>Навички</h2>
-      <ul>
+    <section className="bg-slate-50 p-5 rounded-xl shadow hover:shadow-lg transition">
+      <h2 className="text-2xl font-semibold text-blue-700 mb-3">Навички</h2>
+      <ul className="list-disc pl-6 text-slate-700 space-y-2">
         <li>Основи кібербезпеки</li>
         <li>Робота з базами даних</li>
         <li>Створення вебсторінок</li>

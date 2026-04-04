@@ -11,6 +11,7 @@
         <h1>Яновка Вікторія</h1>
         <p>Студентка Національного університету "Львівська політехніка"</p>
         <p>Спеціальність: Кібербезпека</p>
+        <button id="themeToggle" type="button">Змінити тему</button>
     </header>
 
     <main>
@@ -61,11 +62,37 @@
         <section>
             <h2>Контакти</h2>
             <p>Email: viktoriaanovka532@gmail.com</p>
+            <p>Телефон: 0679394833</p>
+        </section>
+
+        <section>
+            <h2>Відгуки попередніх роботодавців</h2>
+            <div id="reviewsList">
+                <p>Відгуки завантажуються...</p>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>CV студентки спеціальності "Кібербезпека"</p>
+        <div id="storageData"></div>
     </footer>
+
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal" type="button" class="close-btn">Закрити</button>
+            <h2>Форма зворотного зв'язку</h2>
+
+            <form action="https://formspree.io/f/xjgppvdv" method="POST">
+                <input type="text" name="name" placeholder="Ім'я" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Номер телефону" required>
+                <textarea name="message" placeholder="Ваше повідомлення" rows="5" required></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

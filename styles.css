@@ -78,3 +78,116 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#themeToggle {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: white;
+    color: #2f5fa7;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#themeToggle:hover {
+    background-color: #e5ecf7;
+}
+
+.review-card {
+    background-color: #f8fafc;
+    border-left: 4px solid #2f5fa7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#storageData {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#storageData ul {
+    padding-left: 20px;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 14px;
+    position: relative;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.modal-content input,
+.modal-content textarea {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.modal-content button[type="submit"] {
+    padding: 12px;
+    background-color: #2f5fa7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+.dark-mode section,
+.dark-mode footer,
+.dark-mode .modal-content,
+.dark-mode .review-card {
+    background-color: #1e293b;
+    color: #f8fafc;
+}
+
+.dark-mode h2 {
+    color: #93c5fd;
+    border-bottom-color: #334155;
+}
+
+.dark-mode a {
+    color: #93c5fd;
+}

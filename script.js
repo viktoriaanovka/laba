@@ -1,4 +1,4 @@
-const VARIANT_NUMBER = 1; // заміни 1 на свій номер у журналі
+const VARIANT_NUMBER = 17;
 
 const reviewsList = document.getElementById('reviewsList');
 const storageData = document.getElementById('storageData');

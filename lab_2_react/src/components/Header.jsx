@@ -1,7 +1,7 @@
 function Header({ theme, onToggleTheme }) {
   return (
     <header className="bg-blue-700 text-white text-center p-8">
-      <h1 className="text-4xl font-bold mb-2">Яновка Вікторія</h1>
+      <h1 className="text-4xl font-bold mb-2">дЯновка Вікторія</h1>
       <p className="text-lg">
         Студентка Національного університету "Львівська політехніка"
       </p>

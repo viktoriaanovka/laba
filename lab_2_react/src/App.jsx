@@ -11,7 +11,7 @@ import ContactForm from './components/ContactForm';
 
 function App() {
   const [theme, setTheme] = useState('light');
-  const variant = 1; // заміни 1 на свій номер у журналі
+  const variant = 17; 
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('react_theme');

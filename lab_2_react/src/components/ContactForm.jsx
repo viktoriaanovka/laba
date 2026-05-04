@@ -12,7 +12,7 @@ function ContactForm({
 
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 60000);
+    }, 1);
 
     return () => clearTimeout(timer);
   }, []);

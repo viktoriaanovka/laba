@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Яновка Вікторія</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Яновка Вікторія</h1>
+            <p>Студентка Національного університету "Львівська політехніка"</p>
+            <p>Спеціальність: Кібербезпека</p>
+            <button id="themeToggle" type="button">Змінити тему</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Про себе</h2>
+            <p>
+                Я студентка, яка навчається за спеціальністю "Кібербезпека"
+                у Національному університеті "Львівська політехніка".
+                Цікавлюся веброзробкою, базами даних, серверними технологіями
+                та сучасними інформаційними системами.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Досвід</h2>
+            <ul>
+                <li>Створення вебсайту для курсової роботи</li>
+                <li>Досвід роботи з базами даних</li>
+                <li>Робота з HTML, CSS, JavaScript та React</li>
+                <li>Створення Node.js сервера для обробки форми</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Навички</h2>
+            <ul>
+                <li>Основи кібербезпеки</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React та компонентний підхід</li>
+                <li>Node.js та Express</li>
+                <li>Робота з API та формами</li>
+                <li>Якісне консультування клієнтів</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Мови</h2>
+            <ul>
+                <li>Українська</li>
+                <li>Англійська</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Особисті якості</h2>
+            <ul>
+                <li>Відповідальність</li>
+                <li>Комунікабельність</li>
+                <li>Уважність до деталей</li>
+                <li>Організованість</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Контакти</h2>
+            <p>Email: viktoriaanovka532@gmail.com</p>
+            <p>Телефон: 0679394833</p>
+        </section>
+
+        <section class="card">
+            <h2>Відгуки попередніх роботодавців</h2>
+            <div id="reviewsList">
+                <p>Відгуки завантажуються...</p>
+            </div>
+        </section>
+
+        <section class="card contact-section">
+            <h2>Форма зворотного зв'язку</h2>
+            <p>
+                Заповніть форму, щоб надіслати повідомлення власнику сайту.
+                Дані будуть передані на сервер Node.js через API-ендпоінт.
+            </p>
+
+            <form id="contactForm">
+                <div class="form-grid">
+                    <input type="text" name="name" placeholder="Ім'я" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <input type="text" name="subject" placeholder="Тема повідомлення" required>
+                <textarea name="message" placeholder="Ваше повідомлення" rows="6" required></textarea>
+
+                <button type="submit">Відправити</button>
+            </form>
+
+            <p id="formStatus"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>CV студентки спеціальності "Кібербезпека"</p>
+        <div id="storageData"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
